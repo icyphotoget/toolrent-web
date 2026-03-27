@@ -235,6 +235,18 @@ export const TOOLS: Tool[] = [
     specs: ['Makita kofer', 'Profesionalni set', 'Više komada', 'Odlično stanje'],
     available: true,
   },
+  {
+    id: '16',
+    name: 'Miješalica za cement',
+    category: 'construction',
+    brand: 'NANEX',
+    pricePerDay: 20,
+    deposit: 100,
+    image: '/cement-mixer.jpg',
+    description: 'Prijenosna miješalica za cement. Potrebno predhodno oprati/odstraniti suhi cement prije korištenja.',
+    specs: ['Električni pogon', 'Prijenosna', 'Za manje građevinske radove', 'Potrebno očistiti prije upotrebe'],
+    available: true,
+  },
 ];
 
 export const CATEGORIES: { value: ToolCategory; label: string; icon: string }[] = [
