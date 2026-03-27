@@ -74,7 +74,7 @@ function Hero() {
       <div className="max-w-6xl mx-auto px-4 py-10 sm:py-14 text-center">
         <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/20 rounded-full px-3 py-1 mb-5">
           <Truck className="w-3.5 h-3.5 text-orange-400" />
-          <span className="text-xs font-semibold text-orange-400">Dostava diljem Zagreba</span>
+          <span className="text-xs font-semibold text-orange-400">Dostava diljem Osijeka i okolice</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-white mb-4 leading-tight">
           Alat kad ti treba.<br />
@@ -511,7 +511,7 @@ function Footer() {
               <span className="text-white font-black">ToolRent</span>
             </div>
             <p className="text-slate-500 text-xs leading-relaxed">
-              Najam profesionalnog alata i strojeva u Zagrebu i okolici.
+              Najam profesionalnog alata i strojeva u Osijeku i okolici.
               Od 1 dana, dostava ili osobno preuzimanje.
             </p>
           </div>
@@ -527,7 +527,7 @@ function Footer() {
             <h4 className="text-white font-bold text-sm mb-3">Kontakt</h4>
             <div className="space-y-1.5 text-xs text-slate-500">
               <div className="flex items-center gap-2"><Phone className="w-3.5 h-3.5 text-orange-400" /> 098 123 4567</div>
-              <div className="flex items-center gap-2"><MapPin className="w-3.5 h-3.5 text-orange-400" /> Zagreb, Hrvatska</div>
+              <div className="flex items-center gap-2"><MapPin className="w-3.5 h-3.5 text-orange-400" /> Osijek, Hrvatska</div>
               <div className="flex items-center gap-2"><Clock className="w-3.5 h-3.5 text-orange-400" /> Pon–Sub: 7–19h</div>
             </div>
           </div>

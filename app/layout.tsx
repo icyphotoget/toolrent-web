@@ -6,8 +6,8 @@ import { CartProvider } from "@/lib/cart";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "ToolRent — Najam alata i strojeva | Zagreb",
-  description: "Najam profesionalnog alata i strojeva u Zagrebu. Bušilice, bagere, skele, vrtni strojevi. Dostava ili osobno preuzimanje.",
+  title: "ToolRent — Najam alata i strojeva | Osijek",
+  description: "Najam profesionalnog alata i strojeva u Osijeku. Bušilice, bagere, skele, vrtni strojevi. Dostava ili osobno preuzimanje.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
