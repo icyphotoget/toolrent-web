@@ -15,7 +15,7 @@ export interface Tool {
   brand: string;
 }
 
-export type ToolCategory = 'electric' | 'garden' | 'scaffolding' | 'construction';
+export type ToolCategory = 'electric' | 'garden' | 'scaffolding' | 'construction' | 'teammate';
 
 export interface BookingItem {
   tool: Tool;
@@ -247,6 +247,18 @@ export const TOOLS: Tool[] = [
     specs: ['Električni pogon', 'Prijenosna', 'Za manje građevinske radove', 'Potrebno očistiti prije upotrebe'],
     available: true,
   },
+  {
+    id: '17',
+    name: 'Đani - teammate za pabaru',
+    category: 'teammate',
+    brand: 'Đani',
+    pricePerDay: 50,
+    deposit: 0,
+    image: '/đani-teammate.jpg',
+    description: 'Društvo za pabaru! Đani donosi odličnu atmosferu, zezanciju i dobru energiju. Zatraži ga kao teammate za nezaboravnu večer!',
+    specs: ['1 sat = 50 EUR', 'Dobra energija', 'Zezancija bez kraja', 'Dostupno po dogovoru'],
+    available: true,
+  },
 ];
 
 export const CATEGORIES: { value: ToolCategory; label: string; icon: string }[] = [
@@ -254,6 +266,7 @@ export const CATEGORIES: { value: ToolCategory; label: string; icon: string }[] 
   { value: 'garden', label: 'Vrtni strojevi', icon: 'Trees' },
   { value: 'scaffolding', label: 'Skele i ljestve', icon: 'Ladder' },
   { value: 'construction', label: 'Građevinska oprema', icon: 'HardHat' },
+  { value: 'teammate', label: 'Društvo / Teammate', icon: 'Users' },
 ];
 
 export const DISCOUNT_THRESHOLD_DAYS = 3;

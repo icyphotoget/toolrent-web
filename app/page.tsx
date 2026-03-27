@@ -6,7 +6,7 @@ import {
   ShoppingCart, X, Plus, Minus, Calendar, MapPin,
   Drill, Trees, HardHat, Hammer, ChevronRight,
   CheckCircle, AlertTriangle, Phone, MessageCircle,
-  ArrowRight, Shield, Truck, Clock,
+  ArrowRight, Shield, Truck, Clock, Users,
 } from 'lucide-react';
 import { format, differenceInDays, addDays, formatISO } from 'date-fns';
 import { hr } from 'date-fns/locale';
@@ -110,6 +110,7 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   garden: <Trees className="w-4 h-4" />,
   scaffolding: <Hammer className="w-4 h-4" />,
   construction: <HardHat className="w-4 h-4" />,
+  teammate: <Users className="w-4 h-4" />,
 };
 
 function CategoryTabs({ active, onChange }: { active: ToolCategory | 'all'; onChange: (c: ToolCategory | 'all') => void }) {
